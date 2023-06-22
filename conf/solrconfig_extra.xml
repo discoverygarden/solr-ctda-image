@@ -78,6 +78,9 @@
       <str name="buildOnStartup">false</str>
     </lst>
   </searchComponent>
+<searchComponent name="ocrHighlight" class="solrocr.OcrHighlightComponent">
+    <lst/>
+  </searchComponent>
 <!--
   Autocomplete
   7.0.0
