@@ -131,7 +131,7 @@
   Select w/ OCR Highlighting Component
   7.0.0
 -->
-<requestHandler name="/select_ocr" class="solr.SearchHandler">
+<requestHandler name="/select" class="solr.SearchHandler">
   <lst name="defaults">
     <str name="defType">lucene</str>
     <str name="df">id</str>
@@ -218,9 +218,7 @@
   Special configs for Select w/ OCR Highlighting Component
   7.0.0
 -->
-  <searchComponent name="ocrHighlight" class="solrocr.OcrHighlightComponent">
-    <lst/>
-  </searchComponent>
+  <searchComponent name="ocrHighlight" class="solrocr.OcrHighlightComponent"/>
 <!--
   Special configs for Term Vector
   7.0.0
