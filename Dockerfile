@@ -1,4 +1,4 @@
-FROM 231224489621.dkr.ecr.us-east-1.amazonaws.com/solr:1.2.0
+FROM 231224489621.dkr.ecr.us-east-1.amazonaws.com/solr:1.3.1
 
 RUN rm -rf ${SOLR_CORE_DIR}/conf/
 # XXX: User and Group IDs are necessary due to an open issue with buildx: https://github.com/docker/buildx/issues/1526
