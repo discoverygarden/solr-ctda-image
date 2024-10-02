@@ -1,4 +1,4 @@
-ARG BASE_IMG="231224489621.dkr.ecr.us-east-1.amazonaws.com/solr:2.0-20240901044838"
+ARG BASE_IMG="231224489621.dkr.ecr.us-east-1.amazonaws.com/solr:2.0.0-20241001044909"
 FROM ${BASE_IMG}
 
 RUN rm -rf ${SOLR_CORE_DIR}/conf/
