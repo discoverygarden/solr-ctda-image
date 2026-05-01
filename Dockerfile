@@ -1,4 +1,4 @@
-ARG BASE_IMG="ghcr.io/discoverygarden/solr:2.3.1-20260401053159"
+ARG BASE_IMG="ghcr.io/discoverygarden/solr:2.3.1-20260501055350"
 FROM ${BASE_IMG}
 
 RUN rm -rf ${SOLR_CORE_DIR}/conf/
